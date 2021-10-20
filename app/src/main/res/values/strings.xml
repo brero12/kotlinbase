@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">InfoTurnosViewer</string>
+    <string name="app_version">v.2.3</string>
+    <string name="settings_label">Preferencias</string>
+    <string name="url_atril_label">Url Atril</string>
+    <string name="save_label">Guardar</string>
+
+    <string name="settings_message_update">Prefencias Actualizadas</string>
+    <string name="label_version">Versión</string>
+
+    <!-- Print Message -->
+    <string name="default_target">TCP:192.168.192.168</string>
+    <string name="handlingmsg_warn_receipt_near_end">Roll paper is nearly end.\n</string>
+    <string name="handlingmsg_warn_battery_near_end">Battery level of printer is low.\n</string>
+    <string name="handlingmsg_err_no_response">Please check the connection of the printer and the mobile terminal.\nConnection get lost.\n</string>
+    <string name="handlingmsg_err_cover_open">Please close roll paper cover.\n</string>
+    <string name="handlingmsg_err_receipt_end">Please check roll paper.\n</string>
+    <string name="handlingmsg_err_paper_feed">Please release a paper feed switch.\n</string>
+    <string name="handlingmsg_err_autocutter">Please remove jammed paper and close roll paper cover.\nRemove any jammed paper or foreign substances in the printer, and then turn the printer off and turn the printer on again.\n</string>
+    <string name="handlingmsg_err_need_recover">Then, If the printer doesn\'t recover from error, please cycle the power switch.\n</string>
+    <string name="handlingmsg_err_unrecover">Please cycle the power switch of the printer.\nIf same errors occurred even power cycled, the printer may out of order.</string>
+    <string name="handlingmsg_err_overheat">Please wait until error LED of the printer turns off. \n</string>
+    <string name="handlingmsg_err_head">Print head of printer is hot.\n</string>
+    <string name="handlingmsg_err_motor">Motor Driver IC of printer is hot.\n</string>
+    <string name="handlingmsg_err_battery">Battery of printer is hot.\n</string>
+    <string name="handlingmsg_err_wrong_paper">Please set correct roll paper.\n</string>
+    <string name="handlingmsg_err_battery_real_end">Please connect AC adapter or change the battery.\nBattery of printer is almost empty.\n</string>
+    <string name="handlingmsg_err_offline">Printer is offline.\n</string>
+    <string name="btn_maintenance_counter_and_printer_setting">Maintenance Counter &amp; Printer Setting</string>
+    <string name="btn_firmware_update">Firmware Update</string>
+    <string name="progress_msg">Please wait...</string>
+    <string name="error_msg">Unexpected Error Occurred.\nStart Over Again.</string>
+    <string name="error_msg_firm_update">Setting API do not support POS terminal model</string>
+    <string name="error_msg_print_data_print_type">not Found Print data and type</string>
+    <string name="note1_1">The time required to update depends on the interface.</string>
+    <string name="note1_2">About 15 minutes for a network connection</string>
+    <string name="note1_3">About 85 minutes for a Bluetooth connection</string>
+    <string name="note2">You cannot stop the update once it has started.</string>
+    <string name="note3">Check that the smart device is charged sufficiently.</string>
+    <string name="note4">Check that no errors have occurred in the printer.</string>
+    <string name="note5">Check that the printer\'s communication status is in good condition.</string>
+    <string name="note6">Do not operate the smart device while updating the firmware.</string>
+    <string name="note7">Do not turn off the printer while updating the firmware.</string>
+    <string name="note8">Do not disconnect the connection cable and power cable while updating the firmware.</string>
+    <string name="note9">Do not sleep the smart device while updating the firmware.</string>
+    <string name="reconnect_message">Reconnecting Printer.</string>
+    <string name="title_printer_model">Printer Model</string>
+    <string name="default_printerModel">TM-m10</string>
+    <string name="setting_file">com.epson.mpos_print_2.PREFERENCE_FILE_KEY</string>
+    <string name="print_activity_extra_param_type">com.epson.mpos_print_2.extra_print_activity_type</string>
+    <string name="print_activity_extra_param_data">com.epson.mpos_print_2.extra_print_activity_data</string>
+    <string name="setting_language">setting_lang</string>
+    <string name="setting_model">setting_model</string>
+    <string name="setting_target">setting_target</string>
+    <string name="setting_uri_scheme">epsonprint</string>
+    <string name="setting_uri_host">mpos_print_2.epson.com</string>
+    <string name="setting_uri_action">print</string>
+
+    <string name="title_printing">Printing\n\n\n   Please wait...</string>
+    <string name="title_printing_error">Error Printing\n\n\n   Press Back Button</string>
+    <string name="title_printing_bad_arguments">Bad Arguments\n\n\n   Press Back Button</string>
+</resources>
